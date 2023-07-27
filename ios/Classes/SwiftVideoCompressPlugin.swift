@@ -1,5 +1,7 @@
 import Flutter
 import AVFoundation
+import Foundation
+import CoreMedia
 
 public class SwiftVideoCompressPlugin: NSObject, FlutterPlugin {
     private let channelName = "video_compress"
